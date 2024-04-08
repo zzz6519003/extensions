@@ -1,0 +1,13 @@
+{
+  "name": "贴吧页面结构修改器",
+  "version": "1.0",
+  "description": "将class为foot的元素插入到贴吧页面content前面",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": ["https://tieba.baidu.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
